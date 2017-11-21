@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Result
+{% endblock title %}
+
+{% block content %}
+    <div class="result_body">
+      {% if result %}
+        <h1>Congratulations, you are correct!</h1>
+      {% else %}
+        <h1>Wrong!</h1>
+      {% endif %}
+
+      <a href="/"><button>Back</button></a>
+    </div>
+{% endblock content %}

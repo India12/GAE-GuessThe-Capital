@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  margin-top: 50px;
+}
+img {
+  width: 500px;
+}
+input {
+  margin: 30px;
+}
+.result_body {
+  margin-top: 300px;
+}
+
+button, input {
+  font-size: 20px;
+}

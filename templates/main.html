@@ -1,0 +1,19 @@
+
+{% extends "layout.html" %}
+
+{% block title %}
+  GAE Guess the Capital
+{% endblock title %}
+
+{% block content %}
+  <h1>Welcome to capital guessing game</h1>
+
+  <p>Guess the capital of {{ country }}</p><br>
+  <img src="{{ image }}"/>
+
+  <form action="/result" method="post">
+    <input type="text" name="capital"/><br>
+    <input type="hidden" name="country" value="{{ country }}"/>
+    <button type="submit">Guess</button>
+  </form>
+{% endblock content %}
