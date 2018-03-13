@@ -1,6 +1,6 @@
 # About
 
-Basic GAE project with Jinja templating engine
+Simple Capital guessing game.
 
 # Usage
 
